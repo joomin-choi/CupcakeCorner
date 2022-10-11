@@ -8,7 +8,11 @@
 import Foundation
 
 class Order: ObservableObject {
-    static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
+    static let types =
+    ["Vanilla",
+     "Strawberry",
+     "Chocolate",
+     "Rainbow"]
     
     @Published var type = 0
     @Published var quantity = 3
@@ -23,4 +27,24 @@ class Order: ObservableObject {
     }
     @Published var extraFrosting = false
     @Published var addSprinkles = false
+    
+    @Published var name = ""
+    @Published var flatOrHouseNumber = ""
+    @Published var streetAddress = ""
+    @Published var townOrCity = ""
+    @Published var county = ""
+    @Published var postcode = ""
+    
+    var hasValidAddress: Bool {
+        if name.isEmpty ||
+            flatOrHouseNumber.isEmpty ||
+            streetAddress.isEmpty ||
+            townOrCity.isEmpty ||
+            postcode.isEmpty
+        {
+            return false
+        }
+        
+        return true
+    }
 }

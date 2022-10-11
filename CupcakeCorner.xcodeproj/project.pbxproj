@@ -13,6 +13,7 @@
 		DBDE9C8328F57B7F00E96F7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDE9C8228F57B7F00E96F7E /* Preview Assets.xcassets */; };
 		DBDE9C8A28F5A70800E96F7E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9C8928F5A70800E96F7E /* Order.swift */; };
 		DBDE9C8C28F5A9A500E96F7E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9C8B28F5A9A500E96F7E /* AddressView.swift */; };
+		DBDE9C8E28F5AD6600E96F7E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9C8D28F5AD6600E96F7E /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DBDE9C8228F57B7F00E96F7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBDE9C8928F5A70800E96F7E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		DBDE9C8B28F5A9A500E96F7E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		DBDE9C8D28F5AD6600E96F7E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			children = (
 				DBDE9C7B28F57B7E00E96F7E /* CupcakeCornerApp.swift */,
 				DBDE9C7D28F57B7E00E96F7E /* ContentView.swift */,
-				DBDE9C8B28F5A9A500E96F7E /* AddressView.swift */,
 				DBDE9C8928F5A70800E96F7E /* Order.swift */,
+				DBDE9C8B28F5A9A500E96F7E /* AddressView.swift */,
+				DBDE9C8D28F5AD6600E96F7E /* CheckoutView.swift */,
 				DBDE9C7F28F57B7F00E96F7E /* Assets.xcassets */,
 				DBDE9C8128F57B7F00E96F7E /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				DBDE9C8A28F5A70800E96F7E /* Order.swift in Sources */,
 				DBDE9C8C28F5A9A500E96F7E /* AddressView.swift in Sources */,
+				DBDE9C8E28F5AD6600E96F7E /* CheckoutView.swift in Sources */,
 				DBDE9C7E28F57B7E00E96F7E /* ContentView.swift in Sources */,
 				DBDE9C7C28F57B7E00E96F7E /* CupcakeCornerApp.swift in Sources */,
 			);
