@@ -57,7 +57,13 @@ class Order: ObservableObject, Codable {
         {
             return false
         }
-        
+        return true
+    }
+    
+    var isNotOnlyJustWhitespace: Bool {
+        for field in [name, flatOrHouseNumber, streetAddress, townOrCity, county, postcode] {
+            if field.trimmingCharacters(in: .whitespaces).isEmpty { return false}
+        }
         return true
     }
     

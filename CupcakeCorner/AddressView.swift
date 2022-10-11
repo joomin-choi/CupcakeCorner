@@ -29,6 +29,7 @@ struct AddressView: View {
                 }
             }
             .disabled(order.hasValidAddress == false)
+            .disabled(order.isNotOnlyJustWhitespace == false)
         }
         .navigationTitle("Delivery details")
         .navigationBarTitleDisplayMode(.inline)
